@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es6"
+    ],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./node_modules/allure2-js-commons/dist/declarations/**/",
+      "./types/"
+    ]
+  },
+  "exclude": [
+    "./node_modules/"
+  ],
+  "compileOnSave": false
+}

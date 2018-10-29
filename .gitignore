@@ -1,0 +1,7 @@
+allure-results
+allure-report
+.idea
+node_modules
+*.log
+*.js
+*.d.ts
