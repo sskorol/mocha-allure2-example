@@ -14,13 +14,6 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.6.tgz#1eb26c040e3a84205b1008ad55c800e5e8a94e34"
   integrity sha512-CBk7KTZt3FhPsEkYioG6kuCIpWISw+YI8o+3op4+NXwTpvAPxE1ES8+PY8zfaK2L98b1z5oq03UHa4VYpeUxnw==
 
-"@types/dotenv@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@types/dotenv/-/dotenv-4.0.3.tgz#ebcfc40da7bc0728b705945b7db48485ec5b4b67"
-  integrity sha512-mmhpINC/HcLGQK5ikFJlLXINVvcxhlrV+ZOUJSN7/ottYl+8X4oSXzS9lBtDkmWAl96EGyGyLrNvk9zqdSH8Fw==
-  dependencies:
-    "@types/node" "*"
-
 "@types/memory-cache@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@types/memory-cache/-/memory-cache-0.2.0.tgz#b654a7757b5ca49d1d499bc0e4ce52a4afea2d71"
@@ -31,15 +24,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.5.tgz#8a4accfc403c124a0bafe8a9fc61a05ec1032073"
   integrity sha512-lAVp+Kj54ui/vLUFxsJTMtWvZraZxum3w3Nwkble2dNuV5VnPA+Mi2oGX9XYJAaIvZi3tn3cbjS/qcJXRb6Bww==
 
-"@types/node@*":
+"@types/node@^10.12.1":
   version "10.12.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.1.tgz#da61b64a2930a80fa708e57c45cd5441eb379d5b"
   integrity sha512-i1sl+WCX2OCHeUi9oi7PiCNUtYFrpWhpcx878vpeq/tlZTKzcFdHePlyFHVbWqeuKN0SRPl/9ZFDSTsfv9h7VQ==
-
-"@types/node@^10.12.0":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
-  integrity sha512-3TUHC3jsBAB7qVRGxT6lWyYo2v96BMmD2PTcl47H25Lu7UXtFH/2qqmKiVrnel6Ne//0TFYf6uvNX+HW2FRkLQ==
 
 acorn-jsx@^3.0.0:
   version "3.0.1"
@@ -581,7 +569,7 @@ doctrine@^2.1.0:
   dependencies:
     esutils "^2.0.2"
 
-dotenv@^6.0.0, dotenv@^6.1.0:
+dotenv@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.1.0.tgz#9853b6ca98292acb7dec67a95018fa40bccff42c"
   integrity sha512-/veDn2ztgRlB7gKmE3i9f6CmDIyXAy6d5nBq+whO9SLX+Zs1sXEgFLPi+aSuWqUuusMfbi84fT8j34fs1HaYUw==
@@ -1590,10 +1578,10 @@ mkdirp@0.5.1, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha-allure2-reporter@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/mocha-allure2-reporter/-/mocha-allure2-reporter-0.0.1.tgz#22315007711f1b25c6b117f8f202d055d6d1a613"
-  integrity sha512-yR89fVDD3gHNuqz/LWD+0IC8Eh/5GSmjPzCMrWO+cJgyvvlwUJdm7oT3EXpAOaj9sC5k47kSBA+k3wfZOBQrJg==
+mocha-allure2-reporter@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/mocha-allure2-reporter/-/mocha-allure2-reporter-0.0.2.tgz#1ef159456b2b5c3e9c51a2ee6ea1a5e41748a121"
+  integrity sha512-bIbKOt1QBOp7+/lihogRgHP+A1XZkfJ3FG6Gj3F1cZpKYYhuokfco5937I9ahDToyI1/1y8MO6HA4gNEvxk/MA==
   dependencies:
     allure2-js-commons "^1.2.0"
 
@@ -2396,21 +2384,13 @@ ts-node@^7.0.1:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-ts-test-decorators@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/ts-test-decorators/-/ts-test-decorators-0.0.4.tgz#d964cdc15e7f54ac90be323d9672a033f63dbbc4"
-  integrity sha512-z6scc/9iJG/y8ygTcOJ9bx2bs0fSgfqf3723MtMGnJNg+av+UDIESiURuR6AKDQjuMqjmh9gn2k6taPJdlopOA==
+ts-test-decorators@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/ts-test-decorators/-/ts-test-decorators-0.0.5.tgz#aa56a189cc6c850da09e27409c8f69fac79a85b4"
+  integrity sha512-gJKdipZBrvFhNu5aD0iFmN6IV3YTTScH0sXlp55Y+aqbe12Ij3IJLtkRAG5KApW5BItE+w7SEjJkhXUPKWtX5A==
   dependencies:
-    "@types/dotenv" "^4.0.3"
-    "@types/mocha" "^5.2.5"
-    "@types/node" "^10.12.0"
     allure2-js-commons "^1.2.0"
     dotenv "^6.1.0"
-    mocha "^5.2.0"
-    mocha-typescript "^1.1.17"
-    source-map-support "^0.5.9"
-    ts-node "^7.0.1"
-    typescript "^3.1.3"
 
 tslib@1.9.0:
   version "1.9.0"
