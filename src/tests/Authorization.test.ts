@@ -1,5 +1,4 @@
 import { Severity } from 'allure2-js-commons';
-import * as dotenv from 'dotenv';
 import { suite } from 'mocha-typescript';
 import { data, description, feature, issue, owner, severity, story, tag, testCaseId } from 'ts-test-decorators';
 import { User } from '../model/User';
@@ -8,8 +7,6 @@ import ProfilePage from '../pages/ProfilePage';
 import { cleanUpCache, open, setUpCache } from '../utils/PageFactory';
 import { verifyThat } from '../verifications/AbstractVerification';
 import atProfilePage from '../verifications/ProfilePageVerifications';
-
-dotenv.config();
 
 @suite
 class Authorization {
