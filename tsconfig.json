@@ -1,24 +1,35 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2017",
     "module": "commonjs",
     "inlineSourceMap": true,
     "inlineSources": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "declaration": true,
     "lib": [
-      "es6"
+      "es7"
+    ],
+    "types": [
+      "node",
+      "mocha",
+      "chai"
     ],
     "removeComments": true,
     "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./*" ],
+      "src/*": ["./src/*"]
+    },
     "typeRoots": [
-      "./node_modules/@types/",
-      "./node_modules/allure2-js-commons/dist/declarations/**/",
-      "./types/"
+      "node_modules/@types"
     ]
   },
-  "exclude": [
-    "./node_modules/"
+  "include": [
+    "./src/**/*.ts"
   ],
-  "compileOnSave": false
+  "exclude": [
+    "node_modules"
+  ]
 }
