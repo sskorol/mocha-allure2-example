@@ -1,6 +1,6 @@
 # Allure 2 Mocha Report Examples
 
-This project demonstrates how to use [allure-js](https://github.com/allure-framework/allure-js) with [ts-test-decorators](https://github.com/sskorol/ts-test-decorators).
+This project demonstrates how to use [allure-js](https://github.com/allure-framework/allure-js) with the official allure-decorators module. Note that it's based on the previous [ts-test-decorators](https://github.com/sskorol/ts-test-decorators) implementation.
 
 ## Usage
 
