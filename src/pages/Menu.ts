@@ -1,4 +1,4 @@
-import { step } from 'ts-test-decorators'
+import { step } from 'allure-decorators'
 import { at } from '../utils/PageFactory'
 import Page from './Page'
 

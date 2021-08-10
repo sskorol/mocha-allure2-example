@@ -1,5 +1,5 @@
+import { attachment, step } from 'allure-decorators'
 import { ContentType } from 'allure-js-commons'
-import { attachment, step } from 'ts-test-decorators'
 import { User } from '../model/User'
 import { at } from '../utils/PageFactory'
 import GridPage from './GridPage'

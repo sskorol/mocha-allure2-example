@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es2019",
     "module": "commonjs",
-    "inlineSourceMap": true,
-    "inlineSources": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "declaration": true,
     "lib": [
-      "es7"
+      "es2019"
     ],
     "types": [
       "node",
@@ -17,14 +18,11 @@
     ],
     "removeComments": true,
     "noImplicitAny": false,
-    "baseUrl": ".",
-    "paths": {
-      "*": [ "./*" ],
-      "src/*": ["./src/*"]
-    },
+    "strict": true,
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "outDir": "./dist"
   },
   "include": [
     "./src/**/*.ts"

@@ -1,5 +1,5 @@
+import { step } from 'allure-decorators'
 import { expect } from 'chai'
-import { step } from 'ts-test-decorators'
 import ProfilePage from '../pages/ProfilePage'
 import { at } from '../utils/PageFactory'
 import { AbstractVerification } from './AbstractVerification'
